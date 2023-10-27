@@ -19,15 +19,15 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className='about__card'>
-              <FaUserAstronaut className='about__icon'/>
-              <h5>Fresher</h5>
-              <small>React Developer</small>
+              < BsPersonWorkspace className='about__icon'/>
+              <h5>Internship</h5>
+              <small>Web Development Intership</small>
             </article>
 
             <article className='about__card'>
-              <BsPersonWorkspace className='about__icon'/>
-              <h5>Internship</h5>
-              <small>Web Development Intership</small>
+              < FaUserAstronaut className='about__icon'/>
+              <h5>Fresher</h5>
+              <small>React Developer</small>
             </article>
 
             <article className='about__card'>
