@@ -39,7 +39,7 @@ const About = () => {
           <p>
           Enthusiastic and dedicated web developer fresher with a solid foundation in HTML, CSS, and JavaScript, along with proficiency in React.js. Eager to contribute my skills to create engaging and user-friendly web experiences.
           </p>
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" onClick={()=>document.getElementById("contactPage").click()} className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
 

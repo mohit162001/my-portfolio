@@ -17,7 +17,7 @@ const Header = () => {
         <div className="me">
         <img src={Me} alt="my_image" />
         </div>
-        <a href="#contact" className='scroll__down'>Scroll Down</a>
+        <a href="#contact" onClick={()=>document.getElementById("contactPage").click()} className='scroll__down'>Scroll Down</a>
       </div>
     </header>
   )
