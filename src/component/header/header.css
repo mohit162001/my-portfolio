@@ -10,6 +10,26 @@ header{
     position: relative;
 }
 
+.type h1 {
+    display: inline-block;
+    letter-spacing: 0.2rem;
+
+    border-right-width: 0.5rem;
+    padding-bottom:0 ;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+
+    animation: 
+    type 1s steps(13) 1s forwards,
+    blink 0.5s steps(1) infinite;
+}
+
+@keyframes type{
+    to{width: 13ch;}
+}
+
+
 /* CallToAction */
 
 .cta{
