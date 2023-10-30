@@ -7,7 +7,7 @@ const Portfolio = () => {
   return (
     <section id="projects">
       <h5>My Recent work</h5>
-      <h2>Porjects</h2>
+      <h2>Projects</h2>
 
       <div className="container project__container">
         {Data.map(({ id, title, image, github, demo }) => {
