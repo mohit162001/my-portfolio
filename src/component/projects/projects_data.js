@@ -14,7 +14,7 @@ const Data = [
         id:2,
         title:"Travel Companion Website",
         image:IMG2,
-        github:'https://github.com/ritik2727/Travel-Companion-frontend',
+        github:'https://github.com/mohit162001/Travel-companion',
         demo:'https://travel-companion-tau.vercel.app/'
     },
     {
