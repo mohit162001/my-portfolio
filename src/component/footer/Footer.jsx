@@ -10,11 +10,11 @@ const Footer = () => {
       <a href="#" className="footer__logo">DYNAMIC</a>
 
       <ul className="section__links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#" onClick={()=>document.getElementById("homePage").click()}>Home</a></li>
+        <li><a href="#about" onClick={()=>document.getElementById("aboutPage").click()}>About</a></li>
+        <li><a href="#skills" onClick={()=>document.getElementById("skillsPage").click()}>Skills</a></li>
+        <li><a href="#projects" onClick={()=>document.getElementById("projectPage").click()}>Projects</a></li>
+        <li><a href="#contact" onClick={()=>document.getElementById("contactPage").click()}>Contact</a></li>
       </ul>
 
       <div className="footer__socials">
