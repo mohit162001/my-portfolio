@@ -7,7 +7,7 @@ import {BsInstagram} from 'react-icons/bs';
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">DYNAMIC</a>
+      <a href="#" className="footer__logo"  onClick={()=>document.getElementById("homePage").click()}>DYNAMIC</a>
 
       <ul className="section__links">
         <li><a href="#" onClick={()=>document.getElementById("homePage").click()}>Home</a></li>
