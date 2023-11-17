@@ -24,7 +24,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; DYNAMIC. All rights reserved</small>
+        <small>&copy; DYNAMIC. All rights reserved </small>
       </div>
     </footer>
   )
