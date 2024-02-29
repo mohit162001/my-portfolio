@@ -55,28 +55,35 @@ const Skills = () => {
             <article className="skill__details">
               <BsFillCheckCircleFill className="skill__details-icon" />
               <div>
-                <h4>Node JS</h4>
+                <h4>REST</h4>
+                <small>Intermediate</small>
+              </div>
+            </article>
+            <article className="skill__details">
+              <BsFillCheckCircleFill className="skill__details-icon" />
+              <div>
+                <h4>Strapi</h4>
+                <small>Intermediate</small>
+              </div>
+            </article>
+            <article className="skill__details">
+              <BsFillCheckCircleFill className="skill__details-icon" />
+              <div>
+                <h4>GraphQl</h4>
+                <small>Intermediate</small>
+              </div>
+            </article>
+            <article className="skill__details">
+              <BsFillCheckCircleFill className="skill__details-icon" />
+              <div>
+                <h4>Django</h4>
                 <small>Basic</small>
               </div>
             </article>
             <article className="skill__details">
               <BsFillCheckCircleFill className="skill__details-icon" />
               <div>
-                <h4>MongoDB</h4>
-                <small>Intermediate</small>
-              </div>
-            </article>
-            <article className="skill__details">
-              <BsFillCheckCircleFill className="skill__details-icon" />
-              <div>
-                <h4>MySQL</h4>
-                <small>Intermediate</small>
-              </div>
-            </article>
-            <article className="skill__details">
-              <BsFillCheckCircleFill className="skill__details-icon" />
-              <div>
-                <h4>Java</h4>
+                <h4>Python</h4>
                 <small>Basic</small>
               </div>
             </article>
