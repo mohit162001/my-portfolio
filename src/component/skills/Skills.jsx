@@ -46,6 +46,13 @@ const Skills = () => {
                 <small>Experienced</small>
               </div>
             </article>
+             <article className="skill__details">
+              <BsFillCheckCircleFill className="skill__details-icon" />
+              <div>
+                <h4>Redux toolkit</h4>
+                <small>Intermediate</small>
+              </div>
+            </article>
           </div>
         </div>
 
