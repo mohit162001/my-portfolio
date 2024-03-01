@@ -39,11 +39,13 @@ const About = () => {
 
             {showModal && <MyModal closeModal={closeModal} />}
 
-            <article className='about__card'>
+            <a href="">
+              <article className='about__card'>
               < FaUserAstronaut className='about__icon'/>
               <h5>Fresher</h5>
               <small>React Developer</small>
             </article>
+            </a>
 
             <a href="#projects" onClick={()=>document.getElementById("projectPage").click()}><article className='about__card'>
               <BiCodeAlt className='about__icon'/>
